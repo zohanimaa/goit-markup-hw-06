@@ -33,16 +33,36 @@
                  </nav>
                  <address class="contacts-adress">
                 <ul class="contacts-links">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
                 </ul>
                  </address>
+                 <button type="button" class="burger-btn"><svg class="burger-icon" 
+                    width="24" 
+                    height="24">
+                   <use href="./images/icons.svg#icon-burger-icon"></use>
+                 </svg>
+                </button>
+        </div>
+        <div class="mobile-menu is-open">
+            <div class="container mobile-menu-container">
+            <button class="mobile-menu-close"></button>
+                <nav class="mobile-menu-nav">Navigation</nav>
+                <address>Adress</address>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+
+            
+            </div>
         </div>
     </header>
     <main>
-        <section class="main-page">
+        <section class="main-page hidden">
                 <div class="container main-container">
                     <h1 class="main-title">Effective Solutions
                     for Your Business
@@ -50,7 +70,7 @@
                             <button class="main-button" type="button">Order Service</button>
                 </div>
                         </section>
-                        <section class="benefits">
+                        <section class="benefits hidden">
                 <div class="container benefits-container">
                     <h2 class="visually-hidden">spdt</h2>
                     <ul class="benefits-items-list">
@@ -98,7 +118,7 @@
                     </ul>
                 </div>
         </section>
-       <section class="team">
+       <section class="team hidden">
                 <div class="container">
                     <h2 class="our-team-title">Our Team</h2>
                     <ul class="team-cards-item">
@@ -258,7 +278,7 @@
                     </ul>
                 </div>
                         </section>
-                        <section class="portfolio">
+                        <section class="portfolio hidden">
                 <div class="container">
                     <h2 class="portfolio-main-title"> Our Portfolio</h2>
                     <ul class="portfolio-list">
@@ -357,7 +377,7 @@
                 </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
            <div class="container-footer">
                <div class="logo-container">
                    <a class="link-logo footer-logo"
@@ -417,7 +437,7 @@
                 </div>
            </div>
     </footer> 
-    <div class="backdrop">
+    <div class="backdrop hidden">
         <div class="modal">
             <button class="close-modal" type="button">
                 <svg class="close-modal-icon" width="8" height="8">
