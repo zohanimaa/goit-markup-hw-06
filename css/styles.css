@@ -226,7 +226,10 @@ button {
         right: 24px;
         border-radius: 50%;
         background-color: #e7e9fc;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
     }
     .mobile-nav-list {
         display: flex;
@@ -409,6 +412,7 @@ button {
    .benefits-items-list {
       display: flex;
       width: 100%;
+      gap: 72px 24px;
    }
    .benefits-items {
     flex-basis: calc((100% - 72px) / 2);
@@ -542,7 +546,7 @@ button {
     }
     .team-cards-item {
       justify-content: center;
-      gap: 24px;
+      gap: 64px 24px;
     }
     .team-cards {
         padding-left: 16px;
